@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		034FF7A61B0DC4D9005A3021 /* zipzap.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D8B0FD611640A6B000727A70 /* zipzap.h */; };
+		034FF7A71B0DC4D9005A3021 /* ZZArchive.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D899CFDA162C608300112F49 /* ZZArchive.h */; };
+		034FF7A81B0DC4D9005A3021 /* ZZArchiveEntry.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D899CFD8162C608300112F49 /* ZZArchiveEntry.h */; };
+		034FF7A91B0DC4D9005A3021 /* ZZConstants.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B50392518706368002B2B12 /* ZZConstants.h */; };
+		034FF7AA1B0DC4D9005A3021 /* ZZError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D8366ACC16B1F8B400BC012E /* ZZError.h */; };
 		5B503930187069E4002B2B12 /* ZZStandardCryptoEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B50392E187069E4002B2B12 /* ZZStandardCryptoEngine.cpp */; };
 		5B503931187069E4002B2B12 /* ZZStandardCryptoEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B50392F187069E4002B2B12 /* ZZStandardCryptoEngine.h */; };
 		5B50393418707C37002B2B12 /* ZZStandardDecryptInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B50393218707C36002B2B12 /* ZZStandardDecryptInputStream.h */; };
@@ -113,6 +118,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		034FF7A51B0DC4CA005A3021 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				034FF7A61B0DC4D9005A3021 /* zipzap.h in CopyFiles */,
+				034FF7A71B0DC4D9005A3021 /* ZZArchive.h in CopyFiles */,
+				034FF7A81B0DC4D9005A3021 /* ZZArchiveEntry.h in CopyFiles */,
+				034FF7A91B0DC4D9005A3021 /* ZZConstants.h in CopyFiles */,
+				034FF7AA1B0DC4D9005A3021 /* ZZError.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D899CFAE162C5EEB00112F49 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -464,6 +483,7 @@
 				D899CF7E162C5EC100112F49 /* Sources */,
 				D899CF7F162C5EC100112F49 /* Frameworks */,
 				D899CF80162C5EC100112F49 /* Headers */,
+				034FF7A51B0DC4CA005A3021 /* CopyFiles */,
 			);
 			buildRules = (
 			);
